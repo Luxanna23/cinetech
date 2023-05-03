@@ -22,28 +22,17 @@
     require_once('header.php'); ?>
     <main>
         <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" id="containerMovie">
-                    <div class="item active">
-                        <img src="https://www.ecran-et-toile.com/uploads/5/5/8/7/55875205/stranger-things-poster_orig.jpg" style="width:100%;">
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+            <h2>Les Plus Populaire</h2>
+            <div id="scroll1" class="scroll">
+            </div>
+            
+            <h2>Les Mieux Noté</h2>
+            <div id="scroll2" class="scroll">
             </div>
 
-                <h2>Nos <br> Films <br> du <br> Moment</h2>
-            
+            <h2>Les Nouvautés</h2>
+            <div id="scroll3" class="scroll">
+            </div>
         </div>
 
     </main>

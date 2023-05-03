@@ -14,6 +14,7 @@
         <div>
             <form method="GET">
                 <input class="searchBar" type="text" id="search-bar" name="search" placeholder="Rechercher...">
+                <input type="submit" name="subSearch" value="Search">
             </form>
             <div id="result"></div>
         </div>
