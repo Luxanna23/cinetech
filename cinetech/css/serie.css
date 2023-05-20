@@ -1,0 +1,71 @@
+main {
+  background-color: #000;
+  color: #fff;
+}
+
+#seriePopularList,
+#serieTopratedList {
+  overflow: auto;
+  display: flex;
+}
+#seriePopularList a,
+#serieTopratedList a {
+  margin-right: 1% !important;
+}
+#seriePopularList a img,
+#serieTopratedList a img {
+  width: 300px;
+  height: 100%;
+}
+#serieGenres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#serieGenres a {
+  width: 18%;
+  /* text-align: center; */
+  margin: 1% !important;
+}
+#serieGenres a img {
+  width: 100%;
+  height: 100%;
+}
+
+#button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#button a {
+  margin: 1% 2% !important;
+}
+#button button {
+  border-radius: 10px;
+  background-color: rgb(148, 148, 148);;
+}
+#button button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* SCROLL BAR HORIZONTAL */
+/* width */
+#seriePopularList::-webkit-scrollbar,
+#serieTopratedList::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+#seriePopularList::-webkit-scrollbar-track,
+#serieTopratedList::-webkit-scrollbar-track {
+  background: #000;
+  border-radius: 10px;
+}
+
+/* Handle */
+#seriePopularList::-webkit-scrollbar-thumb,
+#serieTopratedList::-webkit-scrollbar-thumb {
+  background: rgb(148, 148, 148);;
+  border-radius: 10px;
+}

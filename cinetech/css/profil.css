@@ -1,0 +1,19 @@
+main {
+  background-color: #000;
+  color: #fff;
+}
+#list_favoris a {
+  text-decoration: none;
+  color: #fff;
+}
+#list_favoris img {
+  width: 200px;
+}
+#movies_list {
+  display: flex;
+  overflow: auto;
+}
+#series_list {
+  overflow: auto;
+  display: flex;
+}
